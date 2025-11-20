@@ -19,12 +19,19 @@ export function ProductListItem(props: CatalogItemProps) {
   }
 
   return (
-    <TouchableOpacity style={styles.container} onPress={handleOnPressProduct} activeOpacity={0.7}>
+    <TouchableOpacity
+      style={styles.container}
+      onPress={handleOnPressProduct}
+      activeOpacity={0.7}
+    >
       <View style={styles.starRating}>
         <StarRating rating={props.product.note} />
       </View>
       <View style={styles.content}>
-        <Image style={styles.image} source={require("@/assets/agua-icon.png")} />
+        <Image
+          style={styles.image}
+          source={require("@/assets/bombona-agua.png")}
+        />
         <View style={styles.contentInfo}>
           <Text style={styles.product}>{props.product.name}</Text>
           <Text style={styles.seller}>{props.product.seller.name}</Text>

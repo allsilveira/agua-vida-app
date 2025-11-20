@@ -2,6 +2,7 @@ require("dotenv").config();
 
 export default {
   expo: {
+    owner: "allsilveira",
     name: "agua-vida-app",
     slug: "agua-vida-app",
     version: "1.0.0",
@@ -29,7 +30,11 @@ export default {
     },
     android: {
       package: "com.alessandasilveiras.aguavidaapp",
-      permissions: ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION", "ACCESS_BACKGROUND_LOCATION"],
+      permissions: [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION",
+      ],
       adaptiveIcon: {
         foregroundImage: "./assets/images/adaptive-icon.png",
         backgroundColor: "#09090b",
@@ -54,7 +59,7 @@ export default {
       API_URL: process.env.API_URL || "https://agua-vida-api.onrender.com",
       GOOGLE_MAPS_API_KEY: process.env.GOOGLE_MAPS_API_KEY,
       eas: {
-        projectId: "eb5ac0cf-5ea6-4a68-83f8-d64f3b51dd80",
+        projectId: "ce0eafe9-58d3-45f8-9b43-1613ba56561a",
       },
     },
   },
