@@ -31,12 +31,12 @@ Siga os passos abaixo para rodar o projeto localmente:
 
 ```bash
 # Clone o repositório
-git clone https://github.com/ygorevaldt/gas-facil-app.git
+git clone https://github.com/allsilveira/agua-vida-app.git
 ```
 
 ```bash
 # Acesse a pasta do projeto
-cd gas-facil-app
+cd agua-vida-app
 ```
 
 # Instale as dependências
